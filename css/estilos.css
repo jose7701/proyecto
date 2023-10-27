@@ -1,9 +1,29 @@
-@import"./header.css";
-@import"./banner.css";
-@import"./aceca\ de\ nosotros.css";
+@import "./header.css";
+@import "./banner.css";
+@import "./aceca\ de\ nosotros.css";
+@import "./reseñas\ de\ clientes.css";
+@import "./servicios.css";
+@import "./registrar.css";
+
+:root {
+    --my-color: black;
+    --nord-0: #2E3440;
+    --nord-1: #3B4252;
+    --nord-2: #434C5E;
+    --nord-3: #4C566A;
+    --nord-white-0: #ECEFF4;
+    --nord-white-1: #D8DEE9;
+    --border-radius: 2rem;
+    --font-size: 20rem;
+    --font-size-paragraph: 2rem;
+    --gap-size: 2rem;
+    --box-size: 26rem;
+    
+  }
+  
 *{
-    margin: 0;
-    padding: 0;
+ margin: 0;
+ padding: 0;
  box-sizing: border-box;
 }
 

@@ -1,5 +1,7 @@
 .sobre-uno{
     background-color: #fff;
+    display: flex;
+   
 }
 
 .titulo-section-1{
@@ -9,9 +11,4 @@
 
 .sobre-uno img{
 width: 50rem;
-}
-
-.contenido-acerca-de-nosotros{
-    display: flex;
-    
 }
