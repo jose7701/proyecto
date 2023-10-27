@@ -1,0 +1,54 @@
+
+.cabeza-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.header-g{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.header-g img {
+width: 5rem;
+height: 5rem;
+    
+}
+.menu-de-inicio{ 
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+} 
+
+.link-cabeza{
+ text-decoration: none;
+ color: #fff;
+ font-weight: 700;
+ font-size: 16px;
+ transition: 0.3s;
+}
+
+.link-cabeza:hover{
+    border-bottom: 1px solid #fff;
+  
+   }
+
+.link-cabeza-button{
+    padding: 10px 15px ;
+    border: 1px solid #fff;
+    border-radius: 8rem;
+    transition: o.3s;
+}
+.link-cabeza-button:hover{
+    background-color: #FFFFFF55;
+}

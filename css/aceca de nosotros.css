@@ -1,0 +1,17 @@
+.sobre-uno{
+    background-color: #fff;
+}
+
+.titulo-section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-uno img{
+width: 50rem;
+}
+
+.contenido-acerca-de-nosotros{
+    display: flex;
+    
+}
