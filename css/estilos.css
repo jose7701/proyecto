@@ -5,21 +5,7 @@
 @import "./servicios.css";
 @import "./registrar.css";
 
-:root {
-    --my-color: black;
-    --nord-0: #2E3440;
-    --nord-1: #3B4252;
-    --nord-2: #434C5E;
-    --nord-3: #4C566A;
-    --nord-white-0: #ECEFF4;
-    --nord-white-1: #D8DEE9;
-    --border-radius: 2rem;
-    --font-size: 20rem;
-    --font-size-paragraph: 2rem;
-    --gap-size: 2rem;
-    --box-size: 26rem;
-    
-  }
+
   
 *{
  margin: 0;
@@ -37,6 +23,7 @@ body{
     background-image: url(https://www.comunidadbaratz.com/wp-content/uploads/Las-bibliotecas-escolares-son-imprescindibles-en-los-centros-educativos.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
    background-color: #0009;
    background-blend-mode: soft-light;

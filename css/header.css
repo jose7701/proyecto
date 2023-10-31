@@ -1,10 +1,10 @@
 
 .cabeza-1{
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 40px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@ justify-content: center;
 align-items: center;
 gap: 15px;
 } 
-
+ 
 .link-cabeza{
  text-decoration: none;
  color: #fff;

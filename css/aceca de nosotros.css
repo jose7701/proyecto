@@ -1,14 +1,33 @@
 .sobre-uno{
     background-color: #fff;
-    display: flex;
-   
-}
+ }
+
 
 .titulo-section-1{
     display: flex;
     justify-content: center;
+    padding: 13px;
 }
 
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 .sobre-uno img{
-width: 50rem;
+width: 30rem;
+margin: 50px;
+padding: 0px 0px 0px 50px;
+
+
+}
+
+.contenido-acerca-de-nosotros{
+  padding: 70px 0px 200px 0px;
+  margin: 30px;
+  font-size: 400;
+  text-align: center;
+
+  
+ 
 }
