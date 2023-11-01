@@ -1,33 +1,30 @@
 .sobre-uno{
     background-color: #fff;
+    
  }
 
 
 .titulo-section-1{
     display: flex;
     justify-content: center;
+    font-size: 27px;
     padding: 13px;
 }
 
 .contenido{
+    display: flex;  
+    padding: 10px 0px 0px 60px; 
+ }
+
+.contenido img{
+width: 25rem;
+
+}
+
+.contenido p{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
     
-}
-.sobre-uno img{
-width: 30rem;
-margin: 50px;
-padding: 0px 0px 0px 50px;
-
-
-}
-
-.contenido-acerca-de-nosotros{
-  padding: 70px 0px 200px 0px;
-  margin: 30px;
-  font-size: 400;
-  text-align: center;
-
-  
- 
 }
