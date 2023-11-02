@@ -1,8 +1,32 @@
 .Reseñas-de-clientes{
     background-color: #FFF;
+
 }
 
-.Reseñas-de-clientes{
+.titulo-reseñas-de-clientes{
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
+
+.informacion-reseña-de-clientes{
+    display: flex;
+    gap: 100px;
+    padding: 0px 37px 0px 10px;
+}
+  
+.contenido-reseña-de-clientes{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   padding: 0px 0px 0px 40px;
+   
+ }
+.contenido-reseña-de-clientes h4{
+    font-size: 18px;  
+  }
+.contenido-reseña-de-clientes img{
+   width: 9rem;
+   border-radius: 70px;
+  }
