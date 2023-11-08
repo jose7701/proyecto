@@ -52,3 +52,12 @@ gap: 15px;
 .link-cabeza-button:hover{
     background-color: #FFFFFF55;
 }
+
+
+@media screen {
+    .menu-de-inicio{
+        flex-wrap: wrap;
+    }
+    
+}
+   

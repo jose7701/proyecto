@@ -1,0 +1,49 @@
+
+.informacion-solicitada{
+    width: 500px;
+    background: rgb(253, 253, 253);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+.informacion-solicitada input {
+    width: 100%;
+    background: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;  
+    font-size: 18px;
+}
+
+.informacion-solicitada label {
+    text-align: center;
+}
+
+
+
+
+
+
+.form_register .botons {
+    width: 100%;
+    background: #000;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+.botons:hover {
+    background-color: rgb(35, 187, 195);
+    color: black;
+}

@@ -15,13 +15,29 @@
     background-image: url(https://imagenes.elpais.com/resizer/4qUK41oKV7tAiSQanPkB4i55rvY=/1960x1103/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ZEOB5YOV2JEFFIWLMWUN2KCHCE.jpg);
 }
 
-.container {
-    background-color: #e0e0e0;
-    position: absolute;
-    border-radius: 1rem;
-    padding: 2rem;
-    margin: 0.125rem;
-    display: flex;
-    flex-direction: column;
-  
+.form-login{
+    width: 500px;
+    background: rgb(253, 253, 253);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+.form-login input {
+    width: 100%;
+    background: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;  
+    font-size: 18px;
+}
+
+.form-login label {
+    text-align: center;
 }
