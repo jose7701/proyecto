@@ -59,3 +59,59 @@
     background-color: #FFFFFF55;
 }
 
+.checkbtn {
+    color: #fff;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    filter: invert(1);
+}
+
+#check {
+    display: none;
+}
+
+.informacion-usuario{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.informacion-usuario button { 
+border: 1px solid #fff;
+gap: 5px;
+border-radius: 7rem;
+transition: o.3s;
+}
+
+.informacion-usuario:hover {
+background-color: #FFFFFF55;
+}
+
+
+@media (max-width: 998px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 55%;
+        background: rgb(55, 55, 110);
+        top: 100px;
+        left: -100%;
+        gap: 2px;
+        text-align: center;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}

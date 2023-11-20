@@ -1,32 +1,48 @@
-.Reseñas-de-clientes{
+.Reseñas-de-clientes {
     background-color: #FFF;
 
 }
 
-.titulo-reseñas-de-clientes{
+.titulo-reseñas-de-clientes {
     text-align: center;
     padding: 30px;
 }
 
-.informacion-reseña-de-clientes{
+.informacion-reseña-de-clientes {
     display: flex;
-    gap: 100px;
-    padding: 0px 37px 0px 10px;
+    gap: 80px;
+    padding: 0px 37px 0px 60px;
 }
-  
-.contenido-reseña-de-clientes{
+
+.contenido-reseña-de-clientes {
     display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 20px;
-   padding: 0px 0px 0px 40px;
-   
- }
-.contenido-reseña-de-clientes h4{
-    font-size: 18px;  
-  }
-.contenido-reseña-de-clientes img{
-   width: 9rem;
-   border-radius: 70px;
-  }
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenido-reseña-de-clientes h4 {
+    font-size: 18px;
+}
+
+.contenido-reseña-de-clientes img {
+    width: 9rem;
+    border-radius: 70px;
+}
+
+.contenido-reseña-de-clientes p {
+    text-align: center;
+}
+
+@media (max-width: 588px) {
+    .informacion-reseña-de-clientes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .contenido-reseña-de-clientes p {
+        text-align: center;
+    }
+}

@@ -10,7 +10,13 @@ h2{
 }
 
 .informacion-contacto img{
-    width: 10rem;
+    width: 9.5rem;
     padding: 20px;
 }
 
+@media (max-width: 625px) {
+    .informacion-contacto img {
+        width: 8rem;
+    }
+    }
+     

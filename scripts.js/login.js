@@ -16,20 +16,17 @@ function verificarUsuario(event) {
     if (usuarioValido) {
       localStorage.setItem("usuarioLogeado", usuarioRegistrado)
     } else {
-    p.textContent = "El correo o la contraseña son incorrectos"
+      p.textContent = "El correo o la contraseña son incorrectos"
+      return false;
     }
   } else {
     p.textContent = "El usuario no está registrado"
+    return false;
   }
-  redirectTo('./index.html')
+  window.location.href = "./index.html";
 }
-
-function redirectTo(path) {
-    const a = document.createElement("a")
-    a.href = path
-    a.click()
-  }
 
 form.addEventListener("submit", (event) => {
   verificarUsuario(event)
 })
+

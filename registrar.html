@@ -11,26 +11,26 @@
 
 <body class="fondo-registro">
 
-    <form id="form-register" class="informacion-solicitada">
+    <form id="form" class="informacion-solicitada">
         <h2>Umocore</h2>
         <div class="imagen-registro">
             <img src="img/logo.png" alt="logo">
         </div>
-        <label for="name">Nombres</label>
-        <input type="text">
-        <label for="Apellidos">Apellidos</label>
-        <input type="text">
+        <label for="nombres">Nombres</label>
+        <input type="text" id="nombres" name="nombre" autocomplete="off" required >
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellido" autocomplete="off" required>
         <label for="email">Correo electronico</label>
-        <input type="email">
+        <input type="email" id="email" name="correo" autocomplete="off" required>
         <label for="password">Contraseña</label>
-        <input type="password">
+        <input type="password" id="password" name="contraseña" autocomplete="off" required>
         <label for="genero">Genero</label>
-        <input type="text">
+        <input type="text" id="genero" name="genero" autocomplete="off" required >
 
         <button>Registrar</button>
 
     </form>
- <script src="./scripts.js/registrar.js"></script>
+    <script src="./scripts.js/registrar.js"></script>
 </body>
 
 </html>

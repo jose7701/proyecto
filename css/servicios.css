@@ -30,3 +30,14 @@
  width: 7rem;
 }
 
+@media (max-width: 1073px) {
+   .informacion-servicio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   }
+
+   .contenido-servicio p {
+    text-align: center;
+   }
+}
